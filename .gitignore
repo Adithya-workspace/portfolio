@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.zip
+extracted/
+extracted_zip/
+.agents/
+scratch_box.png
