@@ -11,10 +11,7 @@
   </p>
 
   <p align="center">
-    Portfolio of <strong><a href="https://github.com/Adithya-workspace">Adithya Reddy Kamireddy</a></strong> — Aspiring Software Developer | AI & Web Development.
-  </p>
-  <p align="center">
-    <em>Original template design & interactive architecture by <a href="https://github.com/Jishnu09-siuu">Jishnu Mondal</a>.</em>
+    Crafted by <strong><a href="https://github.com/Jishnu09-siuu">Jishnu Mondal</a></strong> — Designer & Full-Stack Creative Developer.
   </p>
 
 </div>
@@ -80,14 +77,15 @@ Whether presenting production landing pages, full-stack applications, or bespoke
 
 ## ✦ Featured Projects
 
-The portfolio showcases projects engineered across systems, web, and AI:
+The portfolio indexes a curated roster of production web applications, landing pages, and client systems:
 
-- **Nexus OS**: Software & operating system environment engineered by Adithya Reddy Kamireddy, featuring modular task execution, responsive window management, and custom GUI interactions.
-- **Orchestra**: Collaborative hackathon project engineered for real-time synchronization, fluid user workflows, and robust architecture under sprint conditions.
-- **AI & Data Systems**: Upcoming data-driven and algorithmic applications [Editable Slot].
-- **Core Systems & C++**: Algorithmic problem-solving and systems programming [Editable Slot].
-- **Web Applications**: Modern, responsive, and accessible web experiences [Editable Slot].
-- **Database Engineering**: Relational SQL schemas, modeling, and query tuning [Editable Slot].
+- **Aether AI**: Cognitive workspace engineered for deep systemic research and reasoning canvas telemetry.
+- **Aether Protocol**: Monolithic preview portal and executive onboarding architectural briefing flow.
+- **Afterform S01**: Minimalist architectural lookbook and editorial digital showcase.
+- **Cafe Website (Mocha & Miso)**: Full-stack cafe management system with order processing and real-time reservation portal.
+- **Design Studio**: Bold creative agency identity website with fluid layout systems.
+- **Julian Vance Photography**: Analog & editorial photography archive showcasing visual storytelling.
+- **Sen Cruzo Client Portfolio**: Luxury architectural client presentation portfolio with custom typography.
 
 ---
 
@@ -96,7 +94,6 @@ The portfolio showcases projects engineered across systems, web, and AI:
 ```bash
 ECHO-WEBSITE/
 ├── index.html                   # Core single-page portfolio layout & markup
-├── portfolio-data.js            # Centralized configuration (skills, education, projects, socials)
 ├── flex-carousel.js             # WebGL / OGL-powered liquid carousel engine
 ├── FlexCarousel.css             # Stylesheet for carousel layout & states
 ├── FlexCarousel.tsx             # React / TypeScript source reference
@@ -105,7 +102,7 @@ ECHO-WEBSITE/
 ├── ScrollExpandMedia.tsx        # Component source reference
 ├── experience-section.js        # Horizontal spatial timeline engine
 ├── package.json                 # Project configuration & scripts
-├── assets/                      # Brand assets, portrait imagery, and StringTune bundle
+├── assets/                      # Brand assets, portrait imagery, and icons
 ├── Project Images/              # Production portfolio preview captures
 └── Landing Page Assest/         # Full-length landing page showcase assets
 ```
@@ -114,43 +111,52 @@ ECHO-WEBSITE/
 
 ## ✦ Getting Started Locally
 
-This project is built using native ES modules and standard web technologies with zero build steps:
+This project is built using native ES modules and standard web technologies. You can run it with any local HTTP server:
+
+### Prerequisites
+- Python 3.x **or** Node.js installed on your machine.
 
 ### Option 1: Python Simple HTTP Server (Recommended)
 ```bash
-python -m http.server 8080
+# Clone the repository
+git clone https://github.com/Jishnu09-siuu/ECHO-WEBSITE.git
+cd ECHO-WEBSITE
+
+# Run local development server
+npm start
+# or directly:
+python3 -m http.server 8080
 ```
 Then navigate to `http://localhost:8080` in your browser.
 
-### Option 2: Node.js / `npx serve`
+### Option 2: Node.js / Vite / `npx serve`
 ```bash
-npx -y serve . -p 8080
+npx serve .
+# or
+npx live-server
 ```
 
 ---
 
-## ✦ How to Customize
+## ✦ Deployment
 
-All your portfolio content can be edited in a single file without touching any animation or WebGL code:
+Because ECHO is completely static and modular, it can be deployed instantly to any edge hosting provider:
 
-1. Open `portfolio-data.js`.
-2. Update your personal details (`PROFILE`), skills (`SKILLS`), education, projects (`FEATURED_PROJECTS`), and landing pages (`LANDING_WORKS`).
-3. To update your photo, replace `assets/hero_portrait.png` with your portrait image.
+- **Vercel**: Run `vercel` from the root directory or connect the GitHub repository.
+- **Netlify**: Drag and drop the folder or connect via Git with publish directory set to `/`.
+- **GitHub Pages**: Head to repository **Settings > Pages** and set source to branch `main` and folder `/ (root)`.
 
 ---
 
 ## ✦ Connect & Socials
 
-- **Developer**: Adithya Reddy Kamireddy
-- **Email**: [adithyareddy480@gmail.com](mailto:adithyareddy480@gmail.com)
-- **GitHub**: [Adithya-workspace](https://github.com/Adithya-workspace)
-- **LinkedIn**: [adithya-reddy-657394368](https://www.linkedin.com/in/adithya-reddy-657394368/)
-- **Location**: Hyderabad, India
+- **Portfolio**: [Jishnu Mondal](https://jishnumondal.vercel.app/)
+- **GitHub**: [@Jishnu09-siuu](https://github.com/Jishnu09-siuu)
+- **LinkedIn**: [jishnu-mondal](https://www.linkedin.com/in/jishnu-mondal/)
+- **X / Twitter**: [@Jishn8m](https://x.com/Jishn8m)
 
 ---
 
-## ✦ License & Attribution
+## ✦ License
 
-This project is licensed under the [MIT License](LICENSE).
-- **Portfolio Owner & Developer**: Adithya Reddy Kamireddy
-- **Original Template & Architecture**: [Jishnu Mondal](https://github.com/Jishnu09-siuu)
+This project is open-source and available under the [MIT License](LICENSE).
