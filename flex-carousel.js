@@ -4,52 +4,108 @@ export const photo = (id) => `https://images.unsplash.com/${id}?w=1200&q=80&auto
 
 export const DEFAULT_ITEMS = [
   {
-    src: 'Project Images/Cafe Website.png',
-    alt: 'Cafe Website',
-    title: 'Cafe Website',
-    subtitle: 'Editorial Coffee House Experience',
-    description: 'A full-stack cafe management system with an admin portal for orders, menu, and reservations',
-    link: 'https://mochaandmiso.web.app/'
-  },
-  {
-    src: 'Project Images/Design Studio.png',
-    alt: 'Design Studio',
-    title: 'Design Studio',
-    subtitle: 'Creative Agency & Brand Identity',
-    description: 'A bold design studio website built to showcase creative services, brand identity, and digital experiences',
-    link: 'https://echo-design-studio-ex.vercel.app/'
-  },
-  {
-    src: 'Project Images/Photographer Portfolio.png',
-    alt: 'Photographer Portfolio',
-    title: 'Photographer Portfolio',
-    subtitle: 'Editorial & Analog Photography',
-    description: 'An analog & editorial photography portfolio showcasing timeless visual stories',
-    link: 'https://julianvance.vercel.app/'
-  },
-  {
+    id: 'nexus-os',
     src: 'Project Images/Portfolio Design.png',
-    alt: 'Portfolio Design',
-    title: 'Portfolio Design',
-    subtitle: 'Minimalist Creative Developer Portfolio',
-    description: 'A sleek, high-performance portfolio crafted with modern typography, fluid interactions, and curated creative work.',
-    link: 'https://echooo.web.app/'
+    alt: 'Nexus OS Project Preview',
+    title: 'Nexus OS',
+    subtitle: 'Software & Operating System Project',
+    category: 'SYSTEMS / WEB',
+    description: 'An innovative operating system and cognitive software environment engineered by Adithya Reddy Kamireddy, focusing on streamlined multitasking, interactive UI, and system telemetry.',
+    link: 'https://github.com/Adithya-workspace/nexus-os',
+    tools: ['C++', 'Python', 'JavaScript', 'HTML/CSS'],
+    deliverables: [
+      'Modular Application Architecture',
+      'Interactive Workspace & Command Interface',
+      'System Resource Telemetry',
+      'Custom UI Design & Event Loop'
+    ],
+    stats: 'Core project engineered by Adithya Reddy Kamireddy.'
   },
   {
+    id: 'orchestra',
+    src: 'Project Images/Design Studio.png',
+    alt: 'Orchestra Hackathon Project Preview',
+    title: 'Orchestra',
+    subtitle: 'Hackathon Project',
+    category: 'HACKATHON / WEB',
+    description: 'A collaborative hackathon project engineered for real-time synchronization, fluid user workflows, and robust software architecture under rapid sprint conditions.',
+    link: 'https://github.com/Adithya-workspace',
+    tools: ['JavaScript', 'Python', 'HTML/CSS', 'SQL'],
+    deliverables: [
+      'Real-Time Collaboration Engine',
+      'Modern Responsive Interface',
+      'Data Pipeline & API Endpoints',
+      'Hackathon Sprint Delivery'
+    ],
+    stats: 'Engineered during hackathon sprint.'
+  },
+  {
+    id: 'project-03',
+    src: 'Project Images/Cafe Website.png',
+    alt: 'Project 03 Preview',
+    title: 'Project 03',
+    subtitle: 'AI / Data Application',
+    category: 'AI & DATA',
+    description: 'Editable project slot. Add your upcoming AI, machine learning, or data engineering project here.',
+    link: 'https://github.com/Adithya-workspace',
+    tools: ['Python', 'SQL', 'Data Analysis'],
+    deliverables: [
+      'Data Processing Pipeline',
+      'Analytical Insights & Dashboards',
+      'Query Optimization'
+    ],
+    stats: 'Add project metrics or GitHub link here.'
+  },
+  {
+    id: 'project-04',
+    src: 'Project Images/Photographer Portfolio.png',
+    alt: 'Project 04 Preview',
+    title: 'Project 04',
+    subtitle: 'Web Application / Tool',
+    category: 'WEB DEVELOPMENT',
+    description: 'Editable project slot. Add your upcoming web application, utility tool, or API service here.',
+    link: 'https://github.com/Adithya-workspace',
+    tools: ['JavaScript', 'HTML5', 'CSS3'],
+    deliverables: [
+      'Responsive Layout Architecture',
+      'Interactive Frontend Components',
+      'API Integrations'
+    ],
+    stats: 'Add project metrics or live demo here.'
+  },
+  {
+    id: 'project-05',
     src: 'Project Images/Portfolio Website.png',
-    alt: 'Portfolio Website',
-    title: 'Portfolio Website',
-    subtitle: 'Personal Developer & Designer Portfolio',
-    description: 'A personal portfolio highlighting full-stack engineering, interactive UI components, and modern web craft.',
-    link: 'https://jishnumondal.vercel.app/'
+    alt: 'Project 05 Preview',
+    title: 'Project 05',
+    subtitle: 'Algorithm / Core Software',
+    category: 'CORE CS',
+    description: 'Editable project slot. Add your algorithmic implementations, data structure libraries, or C++ systems projects.',
+    link: 'https://github.com/Adithya-workspace',
+    tools: ['C++', 'Algorithms'],
+    deliverables: [
+      'High-Performance Data Structures',
+      'Computational Benchmarks',
+      'Memory Optimization'
+    ],
+    stats: 'Add benchmark details or repo link.'
   },
   {
+    id: 'project-06',
     src: 'Project Images/Sen Cruzo-Client Portfolio.png',
-    alt: 'Sen Cruzo',
-    title: 'Sen Cruzo',
-    subtitle: 'Luxury Architectural & Client Portfolio',
-    description: 'A bespoke editorial portfolio designed for high-profile client presentation, featuring immersive layouts and architectural visual storytelling.',
-    link: 'https://sencruzo.web.app/'
+    alt: 'Project 06 Preview',
+    title: 'Project 06',
+    subtitle: 'Open Source / Independent',
+    category: 'SOFTWARE',
+    description: 'Editable project slot. Add your personal portfolio experiments, open-source utilities, or client builds.',
+    link: 'https://github.com/Adithya-workspace',
+    tools: ['Python', 'JavaScript', 'SQL'],
+    deliverables: [
+      'Full Stack Implementation',
+      'Database Schema Design',
+      'User Authentication & Security'
+    ],
+    stats: 'Add project highlights here.'
   }
 ];
 

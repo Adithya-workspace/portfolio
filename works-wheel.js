@@ -35,70 +35,70 @@ function place(ringDeg, drumDeg, ringR, drumR, bow, m) {
 
 export const DEFAULT_WORKS = [
   {
-    title: "Aether AI",
-    subtitle: "Cognitive Workspace & Deep Reasoning",
-    description: "A cognitive workspace engineered for deep systemic research, disciplined reasoning, and structural synthesis with real-time active node synthesis.",
+    title: "Nexus OS",
+    subtitle: "Operating System & Workspace Architecture",
+    description: "A desktop-grade software environment engineered with responsive web tech, unified window management, and native performance telemetry.",
     image: "Landing Page Assest/Screenshot 2026-10-20 at 7.46.25\u202fPM.png",
     src: "Landing Page Assest/Screenshot 2026-10-20 at 7.46.25\u202fPM.png",
-    href: "#aether-ai",
-    stats: "Active Node Engine • Systemic Synthesis • Structural Research",
-    tools: ["React", "TypeScript", "Tailwind CSS", "AI Engine"],
-    deliverables: ["Cognitive Workspace UI", "Active Node Telemetry", "Interactive Reasoning Canvas"]
+    href: "https://github.com/Adithya-workspace/nexus-os",
+    stats: "Architecture • Multitasking • UI Telemetry",
+    tools: ["C++", "Python", "JavaScript", "HTML/CSS"],
+    deliverables: ["Workspace GUI", "Multitasking Engine", "System Controls"]
   },
   {
-    title: "Aether Protocol",
-    subtitle: "Private Preview & Monolithic Deployment",
-    description: "Exclusive onboarding portal and architectural briefing interface engineered for research scientists, architectural principals, and technical executives.",
+    title: "Orchestra",
+    subtitle: "Real-Time Hackathon Project",
+    description: "A fast-paced collaborative hackathon project built for synchronized workflows, modular integrations, and clean data flow.",
     image: "Landing Page Assest/Screenshot 2026-10-20 at 7.46.43\u202fPM.png",
     src: "Landing Page Assest/Screenshot 2026-10-20 at 7.46.43\u202fPM.png",
-    href: "#aether-protocol",
-    stats: "Version 4.5.2 • Monolithic Core Stability • Immediate Deployment",
-    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Figma"],
-    deliverables: ["Briefing Reservation Portal", "Monolithic Design System", "Executive Onboarding Flow"]
+    href: "https://github.com/Adithya-workspace",
+    stats: "Hackathon Project • Rapid Delivery • Web Stack",
+    tools: ["JavaScript", "Python", "SQL", "HTML/CSS"],
+    deliverables: ["Real-time Sync", "Interface Systems", "Rapid Prototype"]
   },
   {
-    title: "Afterform S01",
-    subtitle: "Brutalist Campaign & Visual Monograph",
-    description: "A seasonal fashion campaign and visual monograph capturing structural streetwear silhouettes framed against raw monolithic concrete architecture.",
+    title: "AI & Data Systems",
+    subtitle: "Intelligent Workflows & Data Models",
+    description: "Placeholder for upcoming AI, NLP, or data-driven application. Replace with your custom project when ready.",
     image: "Landing Page Assest/Screenshot 2026-10-20 at 7.45.28\u202fPM.png",
     src: "Landing Page Assest/Screenshot 2026-10-20 at 7.45.28\u202fPM.png",
-    href: "#afterform-s01",
-    stats: "Campaign S01 • Frame Ref: 35mm_Exp_09 • Visual Monograph",
-    tools: ["Next.js", "Tailwind CSS", "Figma", "Lenis Scroll"],
-    deliverables: ["Visual Monograph Experience", "High-Resolution Lookbook", "Seasonal Campaign Direction"]
+    href: "https://github.com/Adithya-workspace",
+    stats: "Python • SQL • Algorithm Design",
+    tools: ["Python", "SQL", "Data Models"],
+    deliverables: ["Pipeline Architecture", "Data Cleaning", "Model Evaluation"]
   },
   {
-    title: "Afterform System",
-    subtitle: "Brutalist Apparel & Brand Manifesto",
-    description: "A monolithic architectural apparel manifesto stripping garments of emblems and logos, focusing on pure volume, silhouette, and human-concrete alignment.",
+    title: "Core C++ Systems",
+    subtitle: "Algorithmic Engineering & Performance",
+    description: "Placeholder for C++ systems programming, performance benchmarking, and data structure implementations.",
     image: "Landing Page Assest/Screenshot 2026-10-20 at 7.45.46\u202fPM.png",
     src: "Landing Page Assest/Screenshot 2026-10-20 at 7.45.46\u202fPM.png",
-    href: "#afterform-system",
-    stats: "Tokyo Studio • Berlin Lab • Seoul Showroom",
-    tools: ["React", "Tailwind CSS", "Figma", "GSAP"],
-    deliverables: ["Brand Manifesto Landing Page", "Brutalist Lookbook System", "E-Commerce Catalog Layout"]
+    href: "https://github.com/Adithya-workspace",
+    stats: "Memory Safety • Algorithm Complexity • Speed",
+    tools: ["C++", "OOP", "Data Structures"],
+    deliverables: ["Custom Allocators", "Graph Algorithms", "Benchmarking"]
   },
   {
-    title: "Maison Éléara",
-    subtitle: "Fine Jewellery & Parisian Atelier",
-    description: "An haute jewellery boutique celebrating sculpted contours in heavy fairmined gold born from geological stillness, crafted in Paris Place Vendôme.",
+    title: "Web Applications",
+    subtitle: "Modern Responsive Web Engineering",
+    description: "Placeholder for modern web applications built with clean semantic HTML, modular CSS, and JavaScript.",
     image: "Landing Page Assest/Screenshot 2026-10-20 at 7.44.03\u202fPM.png",
     src: "Landing Page Assest/Screenshot 2026-10-20 at 7.44.03\u202fPM.png",
-    href: "#maison-eleara",
-    stats: "Place Vendôme Atelier • 18k Recycled Gold • Aurelia Torc & Drops",
-    tools: ["Figma", "React", "Tailwind CSS", "High-Precision Typography"],
-    deliverables: ["Fine Jewellery Boutique", "Atelier Concierge Interface", "Artisanal Archive Showcase"]
+    href: "https://github.com/Adithya-workspace",
+    stats: "Responsive • Accessible • Performant",
+    tools: ["JavaScript", "HTML5", "CSS3"],
+    deliverables: ["Component Systems", "State Management", "API Integrations"]
   },
   {
-    title: "Éléara Campaign",
-    subtitle: "Campaign Edition Vol. IX — Sandstone Edit",
-    description: "An organic editorial campaign highlighting sculpted gold signet jewellery set against raw geological sandstone formations, with private salon concierge booking.",
+    title: "Database Engineering",
+    subtitle: "SQL Architecture & Relational Design",
+    description: "Placeholder for relational database design, query optimization, and schema modeling projects.",
     image: "Landing Page Assest/Screenshot 2026-10-20 at 7.44.42\u202fPM.png",
     src: "Landing Page Assest/Screenshot 2026-10-20 at 7.44.42\u202fPM.png",
-    href: "#eleara-campaign",
-    stats: "Campaign Edition Vol. IX • Sandstone Geology • Atelier Concierge",
-    tools: ["WebGL", "Three.js", "Tailwind CSS", "Smooth Scroll"],
-    deliverables: ["Campaign Lookbook Experience", "Private Salon Reservation Portal", "Sensory Art Direction"]
+    href: "https://github.com/Adithya-workspace",
+    stats: "Relational Schemas • ACID • Indexing",
+    tools: ["SQL", "Relational DB", "Query Tuning"],
+    deliverables: ["Schema Modeling", "Complex Queries", "Data Integrity"]
   }
 ];
 
